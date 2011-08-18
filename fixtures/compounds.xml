@@ -1,0 +1,7 @@
+<root>
+  <w>classroom<mor type="mor"><mwc><pos><c>n</c></pos><mw><pos><c>n</c></pos><stem>class</stem></mw><mw><pos><c>n</c></pos><stem>room</stem></mw></mwc></mor></w>
+  <w>horseshoe<mor type="mor"><mwc><pos><c>n</c></pos><mw><pos><c>n</c></pos><stem>horse</stem></mw><mw><pos><c>n</c></pos><stem>shoe</stem></mw></mwc></mor></w>
+  <w>horseshoes<mor type="mor"><mwc><pos><c>n</c></pos><mw><pos><c>n</c></pos><stem>horse</stem></mw><mw><pos><c>n</c></pos><stem>shoe</stem><mk type="sfx">PL</mk></mw></mwc></mor></w>
+  <w>horseshoe<mor type="mor"><mwc><pos><c>n</c></pos><mw><pos><c>n</c></pos><stem>horse</stem></mw><mw><pos><c>n</c></pos><stem>shoe</stem></mw></mwc></mor></w>
+  <w>classroo<p type="drawl"/>m<mor type="mor"><mwc><pos><c>n</c></pos><mw><pos><c>n</c></pos><stem>class</stem></mw><mw><pos><c>n</c></pos><stem>room</stem></mw></mwc></mor></w>
+</root>
