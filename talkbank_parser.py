@@ -16,7 +16,7 @@ import unittest
 import re
 from xml.etree.cElementTree import ElementTree, dump
 
-from datatypes import MorToken
+from datatypes import MorToken, punctuation
 
 def flatten(list_of_lists):
     """Flatten one level of nesting
@@ -246,12 +246,18 @@ class MorParser(Parser):
         for utterance in self._findall(doc, "u"):
             speaker = utterance.get("who")
 
-            words = list(flatten(
-                self.parse_mor_element(self.extract_word(word),
-                                       self._find(word, "mor"))
-                for word in utterance if word is not None \
-                and word.tag == self.ns("w") and len(word) > 0))
-            yield speaker, words
+            words = []
+            for word in utterance:
+                if word is None or len(word) == 0:
+                    continue
+                if word.tag == self.ns("w"):
+                    words.append(self.parse_mor_element(self.extract_word(word),
+                                                        self._find(word, "mor")))
+                if word.tag == self.ns("t"):
+                    punct = punctuation.get(word.get("type"), "-")
+                    words.append([MorToken("", punct, punct, punct, "", "", "")])
+            yield speaker, list(flatten(words))
+
           #   elif j.tag == ns("s"):
           #     print punct(j.get("type")),
           #   elif j.tag == ns("t"):

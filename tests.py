@@ -29,7 +29,7 @@ class TalkbankParserTest(unittest.TestCase):
         #     print tokens
         parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
         for i in parser.parse("fixtures/clitics.xml"):
-            print i
+            pass
         head, tail = parser.split_clitic_wordform("that's")
         self.assertEqual(head, "that")
         self.assertEqual(tail, ["'s"])
@@ -43,7 +43,7 @@ class TalkbankParserTest(unittest.TestCase):
     def test_document(self):
         parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
         for i in parser.parse("fixtures/test_doc.xml"):
-            i
+            pass
 
 
     # @unittest.skip
