@@ -1,308 +1,83 @@
-<root>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>we're<mor type="mor"><mw><pos><c>pro</c></pos><stem>we</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>That's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>That</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>wanna<mor type="mor"><mw><pos><c>v</c></pos><stem>want</stem></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>there's<mor type="mor"><mw><pos><c>adv</c><s>loc</s></pos><stem>there</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>there's<mor type="mor"><mw><pos><c>adv</c><s>loc</s></pos><stem>there</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that<overlap-point start-end="end" top-bottom="top"/>'s<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>That's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>That</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>I'm<p type="drawl"/><mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>I'll<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>will</stem></mw></mor-post></mor></w>
-  <w>I'll<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>will</stem></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>I'll<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>will</stem></mw></mor-post></mor></w>
-  <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>you'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>you</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>you'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>you</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>you'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>you</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>you'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>you</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>we'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>we</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>we'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>we</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>isn't<mor type="mor"><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>we'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>we</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>we're<mor type="mor"><mw><pos><c>pro</c></pos><stem>we</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>doesn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">3S</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>rel</c></pos><stem>that</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>You'd<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>You</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>shoe's<mor type="mor"><mw><pos><c>n</c></pos><stem>shoe</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>shoe's<mor type="mor"><mw><pos><c>n</c></pos><stem>shoe</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>I'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>they'll<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>will</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>there's<mor type="mor"><mw><pos><c>adv</c><s>loc</s></pos><stem>there</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>ca<p type="drawl"/>n't<mor type="mor"><mw><pos><c>mod</c></pos><stem>can</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>I<p type="drawl"/>'ve<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>have</stem></mw></mor-post></mor></w>
-  <w>I've<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>have</stem></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>That's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>That</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>rel</c></pos><stem>that</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>rel</c></pos><stem>that</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>there's<mor type="mor"><mw><pos><c>adv</c><s>loc</s></pos><stem>there</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>didn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">PAST</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>there's<mor type="mor"><mw><pos><c>adv</c><s>loc</s></pos><stem>there</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>there's<mor type="mor"><mw><pos><c>adv</c><s>loc</s></pos><stem>there</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>gotta<mor type="mor"><mw><pos><c>part</c></pos><stem>get</stem><mk type="sfxf">PERF</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>I'll<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>will</stem></mw></mor-post></mor></w>
-  <w>I'll<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>will</stem></mw></mor-post></mor></w>
-  <w>wanna<mor type="mor"><mw><pos><c>v</c></pos><stem>want</stem></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>rel</c></pos><stem>that</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>wouldn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>will</stem><mk type="sfxf">COND</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>rel</c></pos><stem>that</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>rel</c></pos><stem>that</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>wanna<mor type="mor"><mw><pos><c>v</c></pos><stem>want</stem></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>isn't<mor type="mor"><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>Jorgensen's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>Jorgensen</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>they've<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>have</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>you're<mor type="mor"><mw><pos><c>pro</c></pos><stem>you</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>they've<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>have</stem></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>didn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">PAST</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>girl's<mor type="mor"><mw><pos><c>n</c></pos><stem>girl</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>I'll<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>will</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>he's<mor type="mor"><mw><pos><c>pro</c></pos><stem>he</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <g><w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w><ga type="comments">laugh</ga></g>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>Jorgensen's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>Jorgensen</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>they've<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>have</stem></mw></mor-post></mor></w>
-  <w>there's<mor type="mor"><mw><pos><c>adv</c><s>loc</s></pos><stem>there</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>rel</c></pos><stem>that</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>couldn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>could</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>She's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>She</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>won't<mor type="mor"><mw><pos><c>mod</c></pos><stem>will</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>can't<mor type="mor"><mw><pos><c>mod</c></pos><stem>can</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>She's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>She</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>doesn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">3S</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>rel</c></pos><stem>that</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>I'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>doesn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">3S</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>I've<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>have</stem></mw></mor-post></mor></w>
-  <w>people's<mor type="mor"><mw><pos><c>n</c></pos><stem>person</stem><mk type="sfxf">PL</mk></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>they've<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>have</stem></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>haven't<mor type="mor"><mw><pos><c>aux</c></pos><stem>have</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>they're<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>they'll<mor type="mor"><mw><pos><c>pro</c></pos><stem>they</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>will</stem></mw></mor-post></mor></w>
-  <w>I've<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>have</stem></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>you're<mor type="mor"><mw><pos><c>pro</c></pos><stem>you</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
-  <w>you're<mor type="mor"><mw><pos><c>pro</c></pos><stem>you</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>you're<mor type="mor"><mw><pos><c>pro</c></pos><stem>you</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>you're<mor type="mor"><mw><pos><c>pro</c></pos><stem>you</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>girl's<mor type="mor"><mw><pos><c>n</c></pos><stem>girl</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>There's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>There</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>we're<mor type="mor"><mw><pos><c>pro</c></pos><stem>we</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>there's<mor type="mor"><mw><pos><c>adv</c><s>loc</s></pos><stem>there</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>there's<mor type="mor"><mw><pos><c>adv</c><s>loc</s></pos><stem>there</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>He's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>He</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>wanna<mor type="mor"><mw><pos><c>v</c></pos><stem>want</stem></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>wanna<mor type="mor"><mw><pos><c>v</c></pos><stem>want</stem></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>That's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>That</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>That's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>That</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>couldn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>could</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>I've<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>have</stem></mw></mor-post></mor></w>
-  <w>couldn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>could</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>you'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>you</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>couldn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>could</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>didn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">PAST</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>I've<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>have</stem></mw></mor-post></mor></w>
-  <w>Lee's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>Lee</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>Brian's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>Brian</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>Brian's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>Brian</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>didn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">PAST</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>What's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>What</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>what's<mor type="mor"><mw><pos><c>pro</c><s>wh</s></pos><stem>what</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>year's<mor type="mor"><mw><pos><c>n</c></pos><stem>year</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>couldn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>could</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>wouldn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>will</stem><mk type="sfxf">COND</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>doesn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">3S</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>didn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">PAST</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>should've<mor type="mor"><mw><pos><c>mod</c></pos><stem>should</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>have</stem></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>didn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">PAST</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>wanna<mor type="mor"><mw><pos><c>v</c></pos><stem>want</stem></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>couldn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>could</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>wasn't<mor type="mor"><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">PAST</mk><mk type="sfxf">13S</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>That's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>That</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>didn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">PAST</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>didn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">PAST</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>that's<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>that</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>didn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">PAST</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>she'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>it's<mor type="mor"><mw><pos><c>pro</c></pos><stem>it</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>wasn't<mor type="mor"><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">PAST</mk><mk type="sfxf">13S</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
-  <w>she's<mor type="mor"><mw><pos><c>pro</c></pos><stem>she</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>It's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>It</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>won't<mor type="mor"><mw><pos><c>mod</c></pos><stem>will</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>there's<mor type="mor"><mw><pos><c>adv</c><s>loc</s></pos><stem>there</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>can't<mor type="mor"><mw><pos><c>mod</c></pos><stem>can</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>there's<mor type="mor"><mw><pos><c>adv</c><s>loc</s></pos><stem>there</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>you'd<mor type="mor"><mw><pos><c>pro</c></pos><stem>you</stem></mw><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw></mor-post></mor></w>
-  <w>He's<mor type="mor"><mw><pos><c>n</c><s>prop</s></pos><stem>He</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
-  <w>didn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">PAST</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>doesn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">3S</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>doesn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">3S</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>what's<mor type="mor"><mw><pos><c>pro</c><s>wh</s></pos><stem>what</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
-  <w>doesn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem><mk type="sfxf">3S</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>wouldn't<mor type="mor"><mw><pos><c>mod</c></pos><stem>will</stem><mk type="sfxf">COND</mk></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
-  <w>he's<mor type="mor"><mw><pos><c>pro</c></pos><stem>he</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">3S</mk></mw></mor-post></mor></w>
+<?xml version="1.0" encoding="UTF-8"?>
 
-</root>
+<CHAT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.talkbank.org/ns/talkbank"
+      xsi:schemaLocation="http://www.talkbank.org/ns/talkbank http://talkbank.org/software/talkbank.xsd"
+      Media="01" Mediatypes="audio"
+      Font="CAfont:13:7"
+      Version="1.9.1"
+      Lang="eng"
+      Options="CA caps bullets"
+      Corpus="SBCSAE"
+      Id="01"
+      Date="1984-01-01">
+  <Participants>
+    <participant
+        id="LENO"
+        name="LENORE"
+        role="Speaker"
+        language="eng"
+
+/>
+    <participant
+        id="LYNN"
+        name="LYNNE"
+        role="Speaker"
+        language="eng"
+
+/>
+    <participant
+        id="DORI"
+        name="DORIS"
+        role="Speaker"
+        language="eng"
+
+/>
+    <participant
+        id="ENV"
+        name="ENV"
+        role="Environment"
+        language="eng"
+
+/>
+  </Participants>
+  <u who="LENO" uID="u0">
+    <w>don't<mor type="mor"><mw><pos><c>mod</c></pos><stem>do</stem></mw><mor-post><mw><pos><c>neg</c></pos><stem>not</stem></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>we're<mor type="mor"><mw><pos><c>pro</c></pos><stem>we</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">PRES</mk></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>gonna<mor type="mor"><mw><pos><c>part</c></pos><stem>go</stem><mk type="sfx">PROG</mk></mw><mor-post><mw><pos><c>inf</c></pos><stem>to</stem></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>I'm<mor type="mor"><mw><pos><c>pro</c></pos><stem>I</stem></mw><mor-post><mw><pos><c>aux</c></pos><stem>be</stem><mk type="sfxf">1S</mk></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
+  </u>
+  <u who="LENO" uID="u0">
+    <w>wouldn't've<mor type="mor"><mw><pos><c>unk</c></pos><stem>wouldn't've</stem></mw></mor></w>
+    </u>
+</CHAT>

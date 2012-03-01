@@ -1,0 +1,89 @@
+<root>
+  <u who="LENO" uID="u1">
+    <pause symbolic-length="long"/>
+    <w>to</w>
+    <w>do</w>
+    <w>the</w>
+    <w>feet</w>
+    <t type="q"></t>
+    <media
+        start="9.520"
+        end="14.100"
+        unit="s"
+        />
+  </u>
+  <u who="LENO" uID="u2">
+    <pause symbolic-length="long"/>
+    <overlap-point start-end="start" top-bottom="top"/>
+    <w>Do</w>
+    <w>the</w>
+    <w>hooves</w>
+    <overlap-point start-end="end" top-bottom="top"/>
+    <t type="q"></t>
+    <media
+        start="14.100"
+        end="15.780"
+        unit="s"
+        />
+  </u>
+  <u who="LYNN" uID="u3">
+    <overlap-point start-end="start" top-bottom="bottom"/>
+    <e><happening>in</happening></e>
+    <e><happening>lengthened</happening></e>
+    <overlap-point start-end="end" top-bottom="bottom"/>
+    <long-feature type="begin">YWN</long-feature>
+    <w>Well</w>
+    <internal-media
+        start="15.010"
+        end="16.780"
+        unit="s"
+        />
+    <w>we're</w>
+    <w>gonna</w>
+    <w>have</w>
+    <w>to</w>
+    <w>find</w>
+    <w>somewhere</w>
+    <internal-media
+        start="16.780"
+        end="18.320"
+        unit="s"
+        />
+    <w>to</w>
+    <w>get</w>
+    <internal-media
+        start="18.330"
+        end="18.850"
+        unit="s"
+        />
+    <e><happening>ex</happening></e>
+    <pause symbolic-length="long"/>
+    <w>something</w>
+    <e><happening>ex</happening></e>
+    <long-feature type="end">YWN</long-feature>
+    <t type="p"></t>
+    <media
+        start="18.850"
+        end="20.690"
+        unit="s"
+        />
+  </u>
+  <u who="DORI" uID="u4">
+    <pause symbolic-length="simple"/>
+    <w>So</w>
+    <internal-media
+        start="20.690"
+        end="21.190"
+        unit="s"
+        />
+    <overlap-point start-end="start" top-bottom="top"/>
+    <w>Mae-</w>
+    <overlap-point start-end="end" top-bottom="top"/>
+    <t type="trail off"></t>
+    <media
+        start="21.190"
+        end="21.740"
+        unit="s"
+        />
+  </u>
+</root>
