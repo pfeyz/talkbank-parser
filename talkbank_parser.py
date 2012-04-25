@@ -234,9 +234,13 @@ class MorParser(Parser):
         # return text
 
     def extract_word(self, mw_element):
-        text = mw_element.text + "".join([p.tail
-                                    for p in list(mw_element)
-                                    if p.tail is not None])
+        parts = [mw_element.text]
+        for i in list(mw_element):
+            # includes all parts of shortenings
+            parts.extend([i.text, i.tail])
+        parts.append(mw_element.tail)
+        parts = [p.rstrip() for p in filter(None, parts)]
+        text = "".join(parts)
         text = self.remove_bad_symbols(text)
         return text
 
