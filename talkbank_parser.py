@@ -21,6 +21,11 @@ class Flag(object):
     " Gets passed to parser to indicate nuanced behavior "
     pass
 
+class DropShorts(Flag):
+    """ Drop out parts of wordforms in shortening markers
+    '(be)cause' becomes 'cause'  """
+    pass
+
 def flatten(list_of_lists):
     """Flatten one level of nesting
     from python.org
@@ -243,8 +248,10 @@ class MorParser(Parser):
     def extract_word(self, mw_element):
         parts = [mw_element.text]
         for i in list(mw_element):
-            # includes all parts of shortenings
-            parts.extend([i.text, i.tail])
+            if DropShorts in self.options and i.tag == self.ns("shortening"):
+                parts.append(i.tail)
+            else:
+                parts.extend([i.text, i.tail])
         parts.append(mw_element.tail)
         parts = [p.rstrip() for p in filter(None, parts)]
         text = "".join(parts)

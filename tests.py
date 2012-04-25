@@ -1,3 +1,8 @@
+"""
+TODO:
+- add tests for shortening
+"""
+
 import unittest
 from os import path
 from xml.etree.ElementTree import ElementTree
