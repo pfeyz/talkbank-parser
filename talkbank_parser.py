@@ -273,3 +273,10 @@ class MorParser(Parser):
 
     # # print "*%s:\t" % speaker , " ".join(unicode(word.word) for word in utterance if word is not None)
     # # print "%mor:\t", " ".join(unicode(word) for word in utterance)
+
+if __name__ == "__main__":
+    from sys import argv
+    parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
+    for fn in argv[1:]:
+        for speaker, ut in parser.parse(fn):
+            print speaker, ut
