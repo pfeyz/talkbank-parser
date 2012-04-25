@@ -34,3 +34,6 @@ class TalkbankParserTest(unittest.TestCase):
         for i in parser.parse("fixtures/test_doc.xml"):
             # iterate through an ensure no exceptions are thrown
             pass
+
+if __name__ == "__main__":
+    unittest.main()

@@ -12,7 +12,6 @@ schema is here http://talkbank.org/software/talkbank.xsd
 
 import abc
 import itertools
-import unittest
 import re
 from xml.etree.cElementTree import ElementTree, dump
 
@@ -270,7 +269,3 @@ class MorParser(Parser):
 
     # # print "*%s:\t" % speaker , " ".join(unicode(word.word) for word in utterance if word is not None)
     # # print "%mor:\t", " ".join(unicode(word) for word in utterance)
-
-if __name__ == "__main__":
-    import tests
-    unittest.main(tests)
