@@ -6,6 +6,10 @@ MT = namedtuple("MorToken", "prefix word stem pos subPos sxfx sfx")
 class MorToken(MT):
     "Represents an element within an utterance"
 
+    @classmethod
+    def punct(self, char):
+        return MorToken([], char, char, char, [], [], [])
+
     template = Template("{$word}$prefix$pos$subPos|$stem$sxfx$sfx")
     def _join_if_any(self, items, joiner):
         if len(items) == 0:

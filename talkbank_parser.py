@@ -265,7 +265,8 @@ class MorParser(Parser):
 
             words = []
             for word in utterance:
-                if word is None or len(word) == 0:
+                if (word is None or len(word) == 0 or
+                    word.attrib.get('type') == 'fragment'):
                     continue
                 if word.tag == self.ns("w"):
                     replacement = self._find(word, "replacement")
@@ -278,7 +279,7 @@ class MorParser(Parser):
                                                             self._find(word, "mor")))
                 if word.tag == self.ns("t"):
                     punct = punctuation.get(word.get("type"), "-")
-                    words.append([MorToken("", punct, punct, punct, "", "", "")])
+                    words.append([MorToken.punct(punct)])
             yield speaker, list(flatten(words))
 
           #   elif j.tag == ns("s"):
