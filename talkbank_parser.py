@@ -17,6 +17,10 @@ from xml.etree.cElementTree import ElementTree, dump
 
 from datatypes import MorToken, punctuation
 
+class Flag(object):
+    " Gets passed to parser to indicate nuanced behavior "
+    pass
+
 def flatten(list_of_lists):
     """Flatten one level of nesting
     from python.org
@@ -51,9 +55,12 @@ class Parser:
     """
 
     __metaclass__ = abc.ABCMeta
-    def __init__(self, namespace=""):
+    def __init__(self, namespace="", options=None):
         self.namespace = namespace
         self.brokens = []
+        self.options = options
+        if self.options is None:
+            self.options = []
 
     @abc.abstractmethod
     def parse(self, node):
