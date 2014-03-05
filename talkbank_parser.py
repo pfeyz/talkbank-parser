@@ -258,32 +258,41 @@ class MorParser(Parser):
         text = self.remove_bad_symbols(text)
         return text
 
+    def parseable(self, word):
+        return not (word is None or len(word) == 0 or
+                    word.attrib.get('type') == 'fragment')
+
+    def parse_word(self, word):
+        if word.tag == self.ns("w"):
+            replacement = self._find(word, "replacement")
+            if replacement:
+                return [self.parse_mor_element(self.extract_word(rep_word),
+                                               self._find(rep_word, "mor"))
+                        for rep_word in self._findall(replacement, "w")]
+            else:
+                return self.parse_mor_element(self.extract_word(word),
+                                              self._find(word, "mor"))
+        elif word.tag == self.ns("t"):
+            punct = punctuation.get(word.get("type"), "-")
+            return [MorToken.punct(punct)]
+        elif word.tag == self.ns("tagMarker"):
+            punct = punctuation.get(word.get("type"), "-")
+            return [MorToken.punct(punct)]
+
     def parse_utterance(self, utterance):
-        words = []
+        uid = utterance.get("uID")
         speaker = utterance.get("who")
-        for word in utterance:
-            if (word is None or len(word) == 0 or
-                word.attrib.get('type') == 'fragment'):
-                continue
-            if word.tag == self.ns("w"):
-                replacement = self._find(word, "replacement")
-                if replacement:
-                    for rep_word in self._findall(replacement, "w"):
-                        words.append(self.parse_mor_element(self.extract_word(rep_word),
-                                                            self._find(rep_word, "mor")))
-                else:
-                    words.append(self.parse_mor_element(self.extract_word(word),
-                                                        self._find(word, "mor")))
-            if word.tag == self.ns("t"):
-                punct = punctuation.get(word.get("type"), "-")
-                words.append([MorToken.punct(punct)])
-        return speaker, words
+        words = (self.parse_word(word)
+                 for word in utterance
+                 if self.parseable(word))
+        words = filter(None, words)  # filter out Nones
+        return uid, speaker, words
 
     def parse(self, filename):
         doc = ElementTree(file=filename)
         for utterance in self._findall(doc, "u"):
-            speaker, words = self.parse_utterance(utterance)
-            yield speaker, list(flatten(words))
+            uid, speaker, words = self.parse_utterance(utterance)
+            yield uid, speaker, list(flatten(words))
 
           #   elif j.tag == ns("s"):
           #     print punct(j.get("type")),
@@ -302,5 +311,5 @@ if __name__ == "__main__":
     from sys import argv
     parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
     for fn in argv[1:]:
-        for speaker, ut in parser.parse(fn):
-            print speaker, ut
+        for uid, speaker, ut in parser.parse(fn):
+            print fn, uid, speaker, ut
