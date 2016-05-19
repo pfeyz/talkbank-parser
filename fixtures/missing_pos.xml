@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CHAT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.talkbank.org/ns/talkbank"
+      xsi:schemaLocation="http://www.talkbank.org/ns/talkbank http://talkbank.org/software/talkbank.xsd"
+      Version="2.0.2"
+      Lang="eng"
+      Corpus="valian"
+      Id="04a.longtr"
+      Date="1986-01-30">
+  <Participants>
+    <participant
+      id="CHI"
+      role="Target_Child"
+      language="eng"
+      age="P1Y9M20D"
+
+      group="normal"
+
+    />
+    <participant
+      id="INV"
+      role="Investigator"
+      language="eng"
+
+    />
+    <participant
+      id="MOT"
+      role="Mother"
+      language="eng"
+
+    />
+  </Participants>
+  <comment type="Location">Parent's Home</comment>
+  <comment type="Generic">Meeting 1</comment>
+  <comment type="Date">30-JAN-1986</comment>
+  
+  <u who="CHI" uID="u7">
+    <w>cop<mor type="mor"><mw><pos><c>n</c></pos><stem>cop</stem></mw><gra type="gra" index="1" head="2" relation="SUBJ"/></mor></w>
+    <w type="fragment">ah</w>
+    <w>be<mor type="mor"><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem></mw><gra type="gra" index="2" head="0" relation="ROOT"/></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/><gra type="gra" index="3" head="2" relation="PUNCT"/></mor></t>
+  </u>
+  
+</CHAT>

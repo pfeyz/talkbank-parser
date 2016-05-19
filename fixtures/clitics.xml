@@ -77,6 +77,14 @@
   <u who="LENO" uID="u0">
     <w>horse's<mor type="mor"><mw><pos><c>n</c></pos><stem>horse</stem></mw><mor-post><mw><pos><c>poss</c></pos><stem>s</stem></mw></mor-post></mor></w>
   </u>
+  <u who="MOT" uID="u650">
+    <w>hidden<mor type="mor"><mw><pos><c>part</c></pos><stem>hide</stem><mk type="sfxf">PERF</mk></mw><gra type="gra" index="1" head="6" relation="JCT"/></mor></w>
+    <w>away<mor type="mor"><mw><pos><c>adv</c></pos><stem>away</stem></mw><gra type="gra" index="2" head="1" relation="JCT"/></mor></w>
+    <w>where<mor type="mor"><mw><pos><c>adv</c><s>wh</s></pos><stem>where</stem></mw><gra type="gra" index="3" head="6" relation="JCT"/></mor></w>
+    <w>nobody'd<mor type="mor"><mw><pos><c>pro</c><s>indef</s></pos><stem>nobody</stem></mw><gra type="gra" index="4" head="6" relation="JCT"/><mor-post><mw><pos><c>mod</c></pos><stem>genmod</stem></mw><gra type="gra" index="5" head="6" relation="SUBJ"/></mor-post></mor></w>
+    <w>be<mor type="mor"><mw><pos><c>v</c><s>cop</s></pos><stem>be</stem></mw><gra type="gra" index="6" head="0" relation="ROOT"/></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/><gra type="gra" index="7" head="6" relation="PUNCT"/></mor></t>
+  </u>
   <!-- <u who="LENO" uID="u0"> -->
   <!--   <w>wouldn't've<mor type="mor"><mw><pos><c>unk</c></pos><stem>wouldn't've</stem></mw></mor></w> -->
   <!--   </u> -->
