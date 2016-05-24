@@ -72,6 +72,17 @@ class MorToken(object):
 
         return s.encode("utf-8")
 
+    def to_dict(self):
+        return {
+            'word': self.word,
+            'prefix': self.prefix,
+            'pos': self.pos,
+            'subPos': self.subPos,
+            'stem': self.stem,
+            'fusion': self.sxfx,
+            'suffix': self.sfx
+            }
+
     @staticmethod
     def from_string(string, word=None):
         """ Construct an instance from a MOR-style string
