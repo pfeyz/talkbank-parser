@@ -17,7 +17,7 @@ from collections import namedtuple
 from string import Template
 from xml.etree.cElementTree import ElementTree, dump
 
-from mor_to_larc.pyparsing_mor_to_dict import parse_tag
+from pyparsing_mor_to_dict import parse_tag
 
 class MorToken(object):
     "Represents an element within an utterance"
