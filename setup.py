@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='talkbank_parser',
-      description='The funniest joke in the world',
+      description='Tools for parsing Talkbank XML corpora.',
       url='https://bitbucket.org/pfeyz/talkbank-parser.git',
       author='Paul Feitzinger',
       packages=['talkbank_parser'])
