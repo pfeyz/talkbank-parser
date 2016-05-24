@@ -23,13 +23,17 @@ class TalkbankParserTest(unittest.TestCase):
         for word in self.compounds.findall("w/mor"):
             parser = MorParser(namespace="")
             parts = parser.parse_mor_element(None, word)
-            self.assertGreaterEqual(parts[0].stem.count("+"), 1)
+            self.assertGreaterEqual(parts[0].stem.count("_"), 1)
 
     def test_clitics(self):
         parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
-        for speaker, tokens in parser.parse("fixtures/clitics.xml"):
+        for uid, speaker, tokens in parser.parse("fixtures/clitics.xml"):
             self.assertGreater(len(tokens), 1,
                                "failed splitting {0} into clitics".format(tokens))
+            self.assertNotIn("?", [w.word for w in tokens])
+        self.assertEqual(' '.join(map(str, tokens)),
+                         ("hidden/part|hide&PERF away/adv|away where/adv:wh|where "
+                          "nobody/pro:indef|nobody 'd/mod|genmod be/v:cop|be ./.|."))
         head, tail = parser.split_clitic_wordform("that's")
         self.assertEqual(head, "that")
         self.assertEqual(tail, ["'s"])
@@ -39,6 +43,17 @@ class TalkbankParserTest(unittest.TestCase):
         for i in parser.parse("fixtures/test_doc.xml"):
             # iterate through an ensure no exceptions are thrown
             pass
+
+    #written to test for abnormal tag reproduced in u7.xml
+    def test_missing_pos(self):
+        parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
+        for uid, speaker, tokens in parser.parse("fixtures/missing_pos.xml"):
+
+            for token in tokens:
+               #print(token.word + '/' + token.pos + '|' + token.stem)
+               self.assertNotEqual(token.pos, 'unk',
+                                   'failed to parse known tag')
+            #'''
 
 if __name__ == "__main__":
     unittest.main()
