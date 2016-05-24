@@ -1,9 +1,0 @@
-talkbank_parser/__init__.py
-talkbank_parser/constants.py
-talkbank_parser/datatypes.py
-talkbank_parser/talkbank_parser.py
-talkbank_parser/tests.py
-talkbank_parser.egg-info/PKG-INFO
-talkbank_parser.egg-info/SOURCES.txt
-talkbank_parser.egg-info/dependency_links.txt
-talkbank_parser.egg-info/top_level.txt
