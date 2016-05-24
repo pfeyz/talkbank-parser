@@ -17,7 +17,7 @@ from collections import namedtuple
 from string import Template
 from xml.etree.cElementTree import ElementTree, dump
 
-from mor_to_larc.tag_to_dictionary import tag_to_dictionary
+from mor_to_larc.pyparsing_mor_to_dict import parse_tag
 
 class MorToken(object):
     "Represents an element within an utterance"
@@ -34,10 +34,10 @@ class MorToken(object):
     @classmethod
     def punct(self, char):
         return MorToken([], char, char, char, [], [], [])
-    
+
     def is_punct(self):
         return self.pos in ['.', '?', '!', '-']
-        
+
 
     template = Template("$word/$prefix$pos$subPos|$stem$sxfx$sfx")
     def _join_if_any(self, items, joiner):
@@ -80,7 +80,7 @@ class MorToken(object):
         and/cooj:coo|and
         """
         try:
-            tdict = tag_to_dictionary(string)
+            tdict = parse_tag(string)
         except:
             raise MalformedTokenString(string)
 
@@ -93,7 +93,7 @@ class MorToken(object):
             sxfx=tdict.get('fusional_suffix', []),
             sfx=tdict.get('suffix', []))
 
-    #def __str__(self):
+    # def __str__(self):
      #   return ("%s/%s" % (self.word, self.pos)).encode("utf8")
 
 punctuation = {"p": ".",
