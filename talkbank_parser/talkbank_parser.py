@@ -256,7 +256,7 @@ class MorParser(Parser):
         words = [self.parse_mor_word("+", i)
                  for i in self._findall(compound, "mw")]
         return MorToken(prefix, text, "_".join([w.stem for w in words]),
-                        pos, subPos, "", "")
+                        pos, subPos, [], [])
 
     def parse_clitic(self, text, element):
         compound = self._find(element, "mwc")
