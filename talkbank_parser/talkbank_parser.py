@@ -325,6 +325,9 @@ class MorParser(Parser):
 
     def parse_mor_element(self, text, element):
         """ need to handle mor-pre and mor-post as well as mw """
+        if element is None:
+            print "parse_mor_element(): element is None", text, element
+            return []
         assert(element.tag == self.ns("mor"))
         compound = self._find(element, "mwc")
         base_word, post_clitic_words = self.split_clitic_wordform(text)
