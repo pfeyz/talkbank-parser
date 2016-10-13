@@ -54,7 +54,7 @@ TAG = StringStart() + WORDFORM + '/' + (SIMPLE_TAG | COMPOUND_TAG) + StringEnd()
 def parse_tag(tag):
     try:
         parsed = TAG.parseString(tag).asDict()
-    except ParseException, e:
+    except (ParseException, e):
         raise ParseException('Failed parsing "{}" \n {}'.format(tag, repr(e)))
 
     word_keys = [w for w in ['word_1', 'word_2', 'word_3', 'word_4']

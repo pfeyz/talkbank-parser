@@ -9,6 +9,8 @@ XML Parsing based on:
 schema is here http://talkbank.org/software/talkbank.xsd
 """
 
+from __future__ import print_function
+
 import abc
 import itertools
 import re
@@ -58,7 +60,7 @@ class MorToken(object):
 
 
     def __repr__(self):
-        s = MorToken.template.substitute(
+        return MorToken.template.substitute(
             word=self.word,
             # prefixes have their delimiter char "#" right-appended.
             prefix='' if not self.prefix else ('#'.join(self.prefix) + '#'),
@@ -67,8 +69,6 @@ class MorToken(object):
             stem=self.stem,
             sxfx=self._join_if_any(self.sxfx, "&"),
             sfx=self._join_if_any(self.sfx, "-"))
-
-        return s.encode("utf-8")
 
     def to_dict(self):
         return {
@@ -299,7 +299,6 @@ class MorParser(Parser):
         for pattern in tails + [pat for pat, word in unmarked]:
             if re.search(pattern, text):
                 encliticsFound += 1
-        del word
 
         result = None
         if encliticsFound > 1:
@@ -324,7 +323,7 @@ class MorParser(Parser):
     def parse_mor_element(self, text, element):
         """ need to handle mor-pre and mor-post as well as mw """
         if element is None:
-            print "parse_mor_element(): element is None", text, element
+            print("parse_mor_element(): element is None", text, element)
             return []
         assert(element.tag == self.ns("mor"))
         compound = self._find(element, "mwc")
