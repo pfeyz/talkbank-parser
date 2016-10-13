@@ -15,14 +15,35 @@ import abc
 import itertools
 import re
 from string import Template
+from typing import List
 from xml.etree.cElementTree import ElementTree
 
 from pyparsing_mor_to_dict import parse_tag
 
 class MorToken(object):
-    "Represents an element within an utterance"
+    """Represents a POS-tagged word in a Talkbank corpus file. Rather than a simple
+    POS tag, the mor/post tools use morphologically granular tags with 7 parts.
 
-    def __init__(self, prefix, word, stem, pos, subPos, sxfx, sfx):
+    Their format is described here:
+    http://childes.psy.cmu.edu/manuals/chat.html#_Toc22189295
+
+    CHILDES describes their POS tags as having 5 components, while we have 7.
+
+    - Where CHILDES treats a multi-part POS tag as a single unit, "V:AUX", we
+    consider "V" to be the POS and "AUX" to be a subPos.
+
+    - We include the original, inflected version of the word in the `word`
+    field, while CHILDES does not include this in their POS representation.
+
+    """
+    def __init__(self,
+                 prefix: List[str],
+                 word: str,
+                 stem: str,
+                 pos: str,
+                 subPos: List[str],
+                 sxfx: List[str],
+                 sfx: List[str]) -> None:
         self.prefix = prefix
         self.word = word
         self.stem = stem
@@ -33,6 +54,7 @@ class MorToken(object):
 
     @classmethod
     def punct(self, char):
+        """ Constructor for a punctuation token"""
         return MorToken([], char, char, char, [], [], [])
 
     def is_punct(self):
@@ -112,7 +134,7 @@ class Flag(object):
     " Gets passed to parser to indicate nuanced behavior "
     pass
 
-class DropShorts(Flag):
+class DropShortenings(Flag):
     """ Drop out parts of wordforms in shortening markers
     '(be)cause' becomes 'cause'  """
     pass
@@ -363,7 +385,7 @@ class MorParser(Parser):
     def extract_word(self, mw_element):
         parts = [mw_element.text]
         for i in list(mw_element):
-            if DropShorts in self.options and i.tag == self.ns("shortening"):
+            if DropShortenings in self.options and i.tag == self.ns("shortening"):
                 parts.append(i.tail)
             else:
                 parts.extend([i.text, i.tail])
@@ -410,30 +432,17 @@ class MorParser(Parser):
           #     print punct(j.get("type")),
           #   elif j.tag == ns("t"):
           #     print endpunct(j.get("type")),
-          # print
-
-        # for speaker, utterance in parse_mor_tier(sys.argv[1]):
-        #   print speaker, [unicode(i) for i in utterance]
 
 
-    # # print "*%s:\t" % speaker , " ".join(unicode(word.word) for word in utterance if word is not None)
-    # # print "%mor:\t", " ".join(unicode(word) for word in utterance)
-
-# if __name__ == "__main__":
-#     from sys import argv
-#     parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
-#     for fn in argv[1:]:
-#         for uid, speaker, ut in parser.parse(fn):
-#             print uid, speaker, prettyUtterance(ut)
+def xml_to_plaintext(xml_input: str, output_fn: str):
+    """Converts an xml CHILDES corpus file at `xml_input` to a text-version at
+    `output_fn`"""
+    parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
+    with open(output_fn, 'w') as outfile:
+        for uid, speaker, utterance in parser.parse(xml_input):
+            outputline = uid + ' ' + speaker + ' ' + prettyUtterance(utterance) + '\n'
+            outfile.writelines(outputline)
 
 if __name__ == "__main__":
     from sys import argv
-    input_fn = argv[1]
-    output_fn = argv[2]
-    outfile = open(output_fn , 'w')
-    parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
-    for uid, speaker, ut in parser.parse(input_fn):
-        outputline = uid + ' ' + speaker + ' ' + prettyUtterance(ut) + '\n'
-        outfile.writelines(outputline)
-
-    outfile.close()
+    xml_to_plaintext(argv[1], argv[2])
