@@ -18,7 +18,7 @@ from string import Template
 from typing import List
 from xml.etree.cElementTree import ElementTree
 
-from pyparsing_mor_to_dict import parse_tag
+from talkbank_parser.pyparsing_mor_to_dict import parse_tag
 
 class MorToken(object):
     """Represents a POS-tagged word in a Talkbank corpus file. Rather than a simple
