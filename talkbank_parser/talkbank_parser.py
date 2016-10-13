@@ -1,4 +1,3 @@
-# -*- py-which-shell: "python2" -*-
 # -*- coding: utf-8 -*-
 
 """
@@ -13,9 +12,8 @@ schema is here http://talkbank.org/software/talkbank.xsd
 import abc
 import itertools
 import re
-from collections import namedtuple
 from string import Template
-from xml.etree.cElementTree import ElementTree, dump
+from xml.etree.cElementTree import ElementTree
 
 from pyparsing_mor_to_dict import parse_tag
 
