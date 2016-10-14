@@ -223,6 +223,11 @@ class Parser:
         return self._qualify_path(path, self.namespace)
 
 class MorParser(Parser):
+
+    def __init__(self):
+        super(MorParser, self).__init__(
+            namespace="{http://www.talkbank.org/ns/talkbank}")
+
     def parse_pos(self, element):
         """ Returns the pos and list of subPos found in element.
 
@@ -437,7 +442,7 @@ class MorParser(Parser):
 def xml_to_plaintext(xml_input: str, output_fn: str):
     """Converts an xml CHILDES corpus file at `xml_input` to a text-version at
     `output_fn`"""
-    parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
+    parser = MorParser()
     with open(output_fn, 'w') as outfile:
         for uid, speaker, utterance in parser.parse(xml_input):
             outputline = uid + ' ' + speaker + ' ' + prettyUtterance(utterance) + '\n'

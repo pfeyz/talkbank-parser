@@ -21,12 +21,13 @@ class TalkbankParserTest(unittest.TestCase):
                                                      "utterances.xml"))
     def test_compound(self):
         for word in self.compounds.findall("w/mor"):
-            parser = MorParser(namespace="")
+            parser = MorParser()
+            parser.namespace = ""
             parts = parser.parse_mor_element(None, word)
             self.assertGreaterEqual(parts[0].stem.count("_"), 1)
 
     def test_clitics(self):
-        parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
+        parser = MorParser()
         for uid, speaker, tokens in parser.parse("fixtures/clitics.xml"):
             self.assertGreater(len(tokens), 1,
                                "failed splitting {0} into clitics".format(tokens))
@@ -39,14 +40,14 @@ class TalkbankParserTest(unittest.TestCase):
         self.assertEqual(tail, ["'s"])
 
     def test_document(self):
-        parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
+        parser = MorParser()
         for i in parser.parse("fixtures/test_doc.xml"):
             # iterate through an ensure no exceptions are thrown
             pass
 
     #written to test for abnormal tag reproduced in u7.xml
     def test_missing_pos(self):
-        parser = MorParser("{http://www.talkbank.org/ns/talkbank}")
+        parser = MorParser()
         for uid, speaker, tokens in parser.parse("fixtures/missing_pos.xml"):
 
             for token in tokens:
