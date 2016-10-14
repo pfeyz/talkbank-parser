@@ -5,4 +5,5 @@ setup(version='0.0.2',
       description='Tools for parsing Talkbank XML corpora.',
       url='https://bitbucket.org/pfeyz/talkbank-parser.git',
       author='Paul Feitzinger',
+      install_requires=['pyparsing'],
       packages=['talkbank_parser'])
