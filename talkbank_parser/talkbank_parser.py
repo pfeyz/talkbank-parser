@@ -14,6 +14,7 @@ from __future__ import print_function
 import abc
 import itertools
 import re
+import sys
 from string import Template
 from typing import List
 from xml.etree.cElementTree import ElementTree
@@ -91,6 +92,9 @@ class MorToken(object):
             stem=self.stem,
             sxfx=self._join_if_any(self.sxfx, "&"),
             sfx=self._join_if_any(self.sfx, "-"))
+
+    def __repr__(self):
+        return "MorToken({})".format(self.__str__())
 
     def to_dict(self):
         return {
@@ -350,7 +354,8 @@ class MorParser(Parser):
     def parse_mor_element(self, text, element):
         """ need to handle mor-pre and mor-post as well as mw """
         if element is None:
-            print("parse_mor_element(): element is None", text, element)
+            print("parse_mor_element(): element is None", text, element,
+                  file=sys.stderr)
             return []
         assert(element.tag == self.ns("mor"))
         compound = self._find(element, "mwc")
@@ -367,7 +372,7 @@ class MorParser(Parser):
                             for c in self._findall(element, "mor-post")]
 
         if len(post_clitics) > 1:
-            print("too many clitics", post_clitics)
+            print("too many clitics", post_clitics, file=sys.stderr)
 
         if compound is not None:
             parts = pre_clitics
