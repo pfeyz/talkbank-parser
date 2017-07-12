@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(version='0.0.2',
+setup(version='0.0.3',
       name='talkbank_parser',
       description='Tools for parsing Talkbank XML corpora.',
       url='https://bitbucket.org/pfeyz/talkbank-parser.git',
