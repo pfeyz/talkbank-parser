@@ -93,9 +93,6 @@ class MorToken(object):
             sxfx=self._join_if_any(self.sxfx, "&"),
             sfx=self._join_if_any(self.sfx, "-"))
 
-    def __repr__(self):
-        return "MorToken({})".format(self.__str__())
-
     def to_dict(self):
         return {
             'word': self.word,
@@ -127,9 +124,6 @@ class MorToken(object):
             subPos=tdict.get('subPos', []),
             sxfx=tdict.get('fusional_suffix', []),
             sfx=tdict.get('suffix', []))
-
-    # def __str__(self):
-     #   return ("%s/%s" % (self.word, self.pos)).encode("utf8")
 
 punctuation = {"p": ".",
                "q": "?"}
