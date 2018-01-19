@@ -411,7 +411,9 @@ class MorParser(Parser):
                 if (word is None or len(word) == 0 or
                     word.attrib.get('type') == 'fragment'):
                     continue
-                if word.tag == self.ns("w"):
+                if word.get('type') == 'comma':
+                    words.append([MorToken.punct(',')])
+                elif word.tag == self.ns("w"):
                     replacement = self._find(word, "replacement")
                     if replacement:
                         for rep_word in self._findall(replacement, "w"):
