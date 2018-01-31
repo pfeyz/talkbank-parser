@@ -20,10 +20,12 @@ class TalkbankParserTest(unittest.TestCase):
         self.utterances = ElementTree(file=path.join("fixtures",
                                                      "utterances.xml"))
     def test_compound(self):
-        for word in self.compounds.findall("w/mor"):
+        comps = self.compounds.findall("w")
+        self.assertEqual(5, len(comps))
+        for word in comps:
             parser = MorParser()
             parser.namespace = ""
-            parts = parser.parse_mor_element(None, word)
+            parts = parser.parse_mor_element(word, word.find('mor'))
             self.assertGreaterEqual(parts[0].stem.count("_"), 1)
 
     def test_clitics(self):
@@ -44,6 +46,11 @@ class TalkbankParserTest(unittest.TestCase):
         for i in parser.parse("fixtures/test_doc.xml"):
             # iterate through an ensure no exceptions are thrown
             pass
+
+    def test_commas(self):
+        parser = MorParser()
+        for uid, speaker, tokens in parser.parse("fixtures/commas.xml"):
+            self.assertIn(',', [word.stem for word in tokens])
 
     #written to test for abnormal tag reproduced in u7.xml
     def test_missing_pos(self):

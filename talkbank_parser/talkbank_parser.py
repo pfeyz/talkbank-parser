@@ -408,11 +408,13 @@ class MorParser(Parser):
 
             words = []
             for word in utterance:
-                if (word is None or len(word) == 0 or
+                if word.attrib.get('type') == 'comma':
+                    words.append([MorToken.punct(',')])
+                elif word.tag == self.ns('tagMarker'):
+                    words.append([MorToken.punct(',')])
+                elif (word is None or len(word) == 0 or
                     word.attrib.get('type') == 'fragment'):
                     continue
-                if word.get('type') == 'comma':
-                    words.append([MorToken.punct(',')])
                 elif word.tag == self.ns("w"):
                     replacement = self._find(word, "replacement")
                     if replacement:
