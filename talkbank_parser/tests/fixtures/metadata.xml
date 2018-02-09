@@ -1,0 +1,35 @@
+<CHAT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.talkbank.org/ns/talkbank"
+      xsi:schemaLocation="http://www.talkbank.org/ns/talkbank http://talkbank.org/software/talkbank.xsd"
+      PID="11312/c-00019924-1"
+      Version="2.5.0"
+      Lang="eng"
+      Corpus="Manchester"
+      Date="1984-01-01">
+  <Participants>
+    <participant
+      id="INV"
+    name="Caroline"
+      role="Investigator"
+      language="eng"
+
+    />
+    <participant
+      id="CHI"
+    name="Nicole"
+      role="Target_Child"
+      language="eng"
+      age="P2Y10M8D"
+      sex="female"
+      group="typical"
+      SES="MC"
+
+    />
+    <participant
+      id="MOT"
+      role="Mother"
+      language="eng"
+
+    />
+  </Participants>
+</CHAT>

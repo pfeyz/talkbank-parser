@@ -52,6 +52,37 @@ class TalkbankParserTest(unittest.TestCase):
         for uid, speaker, tokens in parser.parse("fixtures/commas.xml"):
             self.assertIn(',', [word.stem for word in tokens])
 
+    def test_metadata(self):
+        doc = ElementTree(file='fixtures/metadata.xml')
+        parser = MorParser()
+        metadata = parser.parse_metadata(doc)
+        self.assertEqual(metadata, {
+            'lang': 'eng',
+            'corpus': 'manchester',
+            'date': '1984-01-01',
+            'participants': [
+                {
+                    'id': 'INV',
+                    'name': 'Caroline',
+                    'role': 'Investigator',
+                    'language': 'eng'
+                },
+                {
+                    'id': 'CHI',
+                    'name': 'Nicole',
+                    'role': 'Target_Child',
+                    'language': 'eng',
+                    'age': 'P2Y10M8D',
+                    'sex': 'female',
+                    'group': 'typical',
+                    'SES' :'MC'
+                },
+                {
+                    'id': 'MOT',
+                    'name': 'Mother',
+                    'language': 'eng'
+                }]})
+
     #written to test for abnormal tag reproduced in u7.xml
     def test_missing_pos(self):
         parser = MorParser()
